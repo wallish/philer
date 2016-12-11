@@ -1,0 +1,24 @@
+{
+  "name": "wallish/philer",
+  "type": "library",
+  "description": "A PHP Library used to show philosophical error msg",
+  "keywords": [
+    "error",
+    "message"
+  ],
+  "authors": [
+    {
+      "name": "Nirundthan Parameswaran",
+      "email": "nirundthan.parameswaran@betc.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Philer\\": "src/"
+    }
+  }
+}
