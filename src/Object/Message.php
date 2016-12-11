@@ -48,6 +48,7 @@ class Message
      */
     public function getStringMessage()
     {
-        return array_rand($this->data, 1);
+        $key = array_rand($this->data, 1);
+        return $this->data[$key];
     }
 }
