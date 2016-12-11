@@ -28,7 +28,7 @@ class Message
 
     function __construct()
     {
-        $this->data = require_once 'config/data.php';
+        $this->data = require dirname(__DIR__) . '/config/data.php';
     }
 
     /**
