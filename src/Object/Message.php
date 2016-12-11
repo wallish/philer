@@ -28,7 +28,7 @@ class Message
 
     function __construct()
     {
-        $this->data = require_once 'config/date.php';
+        $this->data = require_once 'config/data.php';
     }
 
     /**
